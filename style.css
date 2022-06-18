@@ -188,7 +188,11 @@ body {
   color: #333333;
   cursor: pointer;
 }
+
 .header-button-second {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   background: transparent;
   margin: 0 auto 0 30px;
   box-sizing: border-box;
@@ -199,7 +203,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 44px;
   text-align: center;
   color: #ffc50e;
   cursor: pointer;
@@ -236,12 +240,12 @@ body {
 }
 
 .header-content {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 .header-content-text {
-    position: relative;
-    height: 40px;
+  position: relative;
+  height: 40px;
 }
 
 .header-content-text p {
@@ -255,9 +259,9 @@ body {
 }
 
 .header-content-text img {
-    position: absolute;
-    top: 0;
-    left: -45px;
+  position: absolute;
+  top: 0;
+  left: -45px;
 }
 
 .header-content-second:before {
