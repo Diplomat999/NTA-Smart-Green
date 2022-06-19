@@ -88,9 +88,11 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 body {
   font-family: "Roboto";
 }
+
 #header {
   background-image: url(./img/header-img.svg);
   background-size: cover;
@@ -101,36 +103,46 @@ body {
   background-size: cover;
   padding: 35px 0 65px;
 }
+
 .container {
   width: 60%;
   margin: auto;
 }
+
 .header-navbar {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
+
 .header-logo {
+  cursor: pointer;
 }
+
 .header-nav {
 }
+
 .header-number {
   width: 239px;
   height: 28px;
-  /* font-family: 'Roboto'; */
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
+  cursor: pointer;
 }
+
 .header-menu {
 }
+
 .header-menu-button {
 }
+
 .header-header {
   padding: 168px 0 77px;
 }
+
 .header-header h2 {
   font-style: normal;
   font-weight: 300;
@@ -141,6 +153,7 @@ body {
   color: #ffffff;
   margin-bottom: 42px;
 }
+
 .header-header h2 span {
   font-family: "Roboto";
   font-style: normal;
@@ -151,6 +164,7 @@ body {
   /* green */
   color: #77b82a;
 }
+
 .header-header p {
   font-family: "Roboto";
   font-style: normal;
@@ -173,26 +187,31 @@ body {
 .header-button {
   display: flex;
   justify-content: space-between;
-  position: relative;
+  align-items: center;
 }
+
 .header-button-first {
   width: 220px;
   height: 44px;
   background: #ffc50e;
   border-radius: 2px;
+  cursor: pointer;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 44px;
   text-align: center;
   color: #333333;
-  cursor: pointer;
+}
+
+.header-button-first:hover {
+  background: #ff9900;
 }
 
 .header-button-second {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   background: transparent;
   margin: 0 auto 0 30px;
   box-sizing: border-box;
@@ -208,29 +227,32 @@ body {
   color: #ffc50e;
   cursor: pointer;
 }
-.header-button p {
-  display: flex;
-  align-items: center;
-  padding-right: 75px;
+
+.header-button-second span {
+  width: 18px;
+  height: 20px;
+  background-image: url(./img/pdf.svg);
+  margin-left: 10px;
 }
-.header-button a {
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  color: #ffffff;
-  text-decoration: none;
+
+.header-button-second:hover {
+  background: #FFC50E;
+  color: #333333;
 }
-.arrow {
-  position: absolute;
-  top: 20px;
-  right: 40px;
-  width: 26px;
+
+.header-button-second:hover span {
+  background-image: url(./img/pdf-hover.svg);
 }
-.substract {
-  position: absolute;
-  top: -25px;
-  right: 0;
+
+.link {
+  background: url(./img/link.svg);
+  display: block;
+  width: 191px;
+  height: 102px;
+}
+
+.link:hover {
+  background-image: url(./img/link-hover.svg);
 }
 
 .header-dashed {
@@ -244,8 +266,43 @@ body {
   justify-content: space-around;
 }
 .header-content-text {
-  position: relative;
+  display: flex;
   height: 40px;
+}
+
+.icon {
+  height: 40px;
+  background-repeat: no-repeat;
+}
+.icon-first {
+  background-image: url(./img/tree.svg);
+}
+
+.icon-first:hover {
+  background-image: url(./img/tree-hover.svg);
+}
+
+.icon-second {
+  background-image: url(./img/house.svg);
+}
+
+.icon-second:hover {
+  background-image: url(./img/house-hover.svg);
+}
+
+.icon-third {
+  background-image: url(./img/shop.svg);
+}
+
+.icon-third:hover {
+  background-image: url(./img/shop-hover.svg);
+}
+
+.icon-fourth {
+  background-image: url(./img/map.svg);
+}
+.icon-fourth:hover {
+  background-image: url(./img/map-hover.svg);
 }
 
 .header-content-text p {
@@ -253,20 +310,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 40px;
-  /* identical to box height */
   color: #ffffff;
   position: relative;
-}
-
-.header-content-text img {
-  position: absolute;
-  top: 0;
-  left: -45px;
-}
-
-.header-content-second:before {
-}
-.header-content-third:before {
-}
-.header-content-fours:before {
+  padding-left: 50px;
 }
