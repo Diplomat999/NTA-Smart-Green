@@ -179,6 +179,7 @@ body {
   cursor: pointer;
   z-index: 3;
 }
+
 .menu__btn:hover span {
   background: #FFC50E;
 }
@@ -443,4 +444,71 @@ body {
   color: #ffffff;
   position: relative;
   padding-left: 50px;
+}
+
+/* section-about */
+
+.about {
+  padding: 120px 0 75px;
+}
+
+.container {}
+
+.about-header {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #333333;
+  position: relative;
+}
+
+.about-header::after {
+  content: '';
+  width: 103px;
+  height: 2px;
+  background: #77b82a;
+  position: absolute;
+  bottom: 0;
+  left: 515px;
+
+}
+
+.about-content {
+  display: flex;
+}
+
+.about-content {}
+
+.about-description {
+  width: 40%;
+}
+
+.description-header {}
+
+.description-teritory {}
+
+.house-item-first {}
+
+.house-item-second {}
+
+.house-item-third {}
+
+.house-item-fourth {}
+
+.house-item-firth {}
+
+.description-services {}
+
+.stiky {
+  background-image: url(./img/stiky.svg);
+  background-size: cover;
+  width: 60%;
+  height: 566px;
+  position: sticky;
+  top: 0;
+  right: 0;
 }
